@@ -1,0 +1,19 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src"],
+  "entryPointStrategy": "expand",
+  "excludePrivate": false,
+  "readme": "./README.md",
+  "out": "./docs",
+  "plugin": [
+    "typedoc-material-theme",
+    "typedoc-plugin-mdn-links",
+    "typedoc-plugin-extras",
+    "@zamiell/typedoc-plugin-not-exported",
+    "typedoc-plugin-zod"
+  ],
+  "themeColor": "#3DC2EC",
+  "footerLastModified": true,
+  "footerTypedocVersion": true,
+  "favicon": "public/logo.png"
+}
